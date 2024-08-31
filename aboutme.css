@@ -1,0 +1,517 @@
+@media screen and (max-width: 1869px) {
+    .body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #C5E3C3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: transform 0.7s ease-in-out;
+    }
+
+    .top {
+        background: #BFEDBB;
+        top: -1px;
+        left: 0.1%;
+        width: 100%;
+        height: 10%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .name {
+        font-family: Impact, sans-serif;
+        font-size: 0.5rem;
+        color: #41663C;
+        background-color: #81B07D;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+        height: 8%;
+        top: -1%;
+        left: 1px;
+        width: 21%;
+        padding: 10.8px;
+    }
+
+    .welcome-text {
+        font-family: Impact, sans-serif;
+        font-size: 0.8rem;
+        font-weight: 200;
+        color: #41663C;
+        background-color: #A8E0A3;
+        margin-left: 30.2%;
+        text-align: center;
+        line-height: 0.2cm;
+        letter-spacing: 0.1mm;
+        position: fixed;
+        width: 12%;
+        top: -1.4%;
+        left: -20px;
+        height: 8.1%;
+        padding: 9.5px;
+    }
+
+    .buttons {
+        font-family: Imprima, sans-serif;
+        font-size: 2mm;
+        white-space: nowrap;
+        height: 4%;
+        right: -3%;
+        top: -1px;
+        width: 49%;
+        background-color: #93B380;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+    }
+
+    .b1 a {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+    }
+
+    .b2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .b3 a {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+    }
+
+    .square1 {
+        width: 35px; 
+        height: 35px; 
+        background-color: #6CAE66;
+        position: absolute; 
+        margin: 258.5px;
+        transform: translateY(19px);
+    }
+    .square2 {
+        width: 35px; 
+        height: 35px; 
+        background-color: #527E4C;
+        position: absolute; 
+        margin: 318px;
+        transform: translateY(19px);
+    }
+    .square3 {
+        width: 35px; 
+        height: 35px; 
+        background-color: #375432;
+        position: absolute; 
+        margin: 378px;
+        transform: translateY(19px);
+    }
+
+    #description {
+        width: 366px; 
+        height: 250px; 
+        border-top-left-radius: 56px;
+        border-top-right-radius: 56px;
+        border-bottom-left-radius: 56px;
+        border-bottom-right-radius: 56px;
+        background-color: #6CAE66;
+        position: absolute; 
+        top: 17%;
+        left: 4.5%;
+    }
+
+    #inside {
+        text-align: center;
+        font-family: Impact, sans-serif; 
+        font-size: 15px;
+        color: white;
+        margin-top: 19%; 
+    }    
+
+    #square5 {
+        width: 299px; 
+        height: 320px; 
+        background-color: #9EC79B;
+        position: absolute; 
+        top: 50%;
+        left: 13%;
+    }
+
+    #square6 {
+        width: 299px; 
+        height: 320px; 
+        background-color: #638960;
+        position: absolute; 
+        top: 52%;
+        left: 17%;
+    }
+
+    img {
+        width: 450px;
+        height: 600px;
+        position: absolute; 
+        top: -94%;
+        left: -29%;
+        margin: 20px auto; 
+    }
+
+    .backbutton {
+        position: absolute;
+    }
+
+    .backbutton a img {
+        width: 20px;
+        height: 1750px;
+        left: 1rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #C5E3C3;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .top {
+        background: #BFEDBB;
+        top: -1px;
+        left: 0.1%;
+        width: 100%;
+        height: 24.2%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .name {
+        font-family: Impact, sans-serif;
+        font-size: 2.5rem;
+        color: #41663C;
+        background-color: #81B07D;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+        height: 21.9%;
+        top: -3%;
+        left: -1px;
+        width: 27.8%;
+        padding-left: 105px;
+    }
+
+    .welcome-text {
+        font-family: Impact, sans-serif;
+        font-size: 2.5rem;
+        font-weight: 200;
+        color: #41663C;
+        background-color: #A8E0A3;
+        margin-left: 35%;
+        text-align: center;
+        line-height: 0.2cm;
+        letter-spacing: 0.1mm;
+        position: fixed;
+        width: 15%;
+        top: -4%;
+        height: 20.6%;
+        padding-top: 26.5px;
+    }
+
+    .buttons {
+        font-family: Imprima, sans-serif;
+        font-size: 1.3rem;
+        height: 8%;
+        right: -1%;
+        top: -1px;
+        width: 40%;
+        background-color: #93B380;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+    }
+
+    .b1 a {
+        text-decoration: none;
+        color: black;
+        margin-right: 100px;
+    }
+
+    .b2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .b3 a {
+        text-decoration: none;
+        color: black;
+        margin-left: 100px;
+    }
+
+    .square1 {
+        width: 100px; 
+        height: 100px;
+        background-color: #6CAE66;
+        position: absolute; 
+        margin: 66.8%;
+        transform: translateY(37px);
+    }
+    .square2 {
+        width: 100px; 
+        height: 100px;
+        background-color: #527E4C;
+        position: absolute; 
+        margin: 77.7%;
+        transform: translateY(37px);
+    }
+    .square3 {
+        width: 100px; 
+        height: 100px;
+        background-color: #375432;
+        position: absolute; 
+        margin: 89.5%;
+        transform: translateY(37px);
+    }
+    
+    #description {
+        width: 47%; 
+        height: 60%; 
+        border-top-left-radius: 56px;
+        border-top-right-radius: 56px;
+        border-bottom-left-radius: 56px;
+        border-bottom-right-radius: 56px;
+        background-color: #6CAE66;
+        position: absolute; 
+        top: 30%;
+        left: 2.5%;
+    }
+
+    #inside {
+        text-align: center;
+        font-family: Impact, sans-serif; 
+        font-size: 2rem;
+        color: white;
+        margin-top: 18%; 
+    }    
+
+    #square5 {
+        width: 40%; 
+        height: 60%; 
+        background-color: #9EC79B;
+        position: absolute; 
+        top: 30%;
+        left: 54%;
+    }
+
+    #square6 {
+        width: 40%; 
+        height: 60%; 
+        background-color: #638960;
+        position: absolute; 
+        top: 32%;
+        left: 55.5%;
+    }
+
+    img {
+        width: 110%;
+        height: 189.5%;
+        position: absolute; 
+        top: -94%;
+        left: -7%;
+        margin: 20px auto; 
+    }
+
+    .backbutton {
+        position: absolute;
+    }
+
+    .backbutton a img {
+        width: 25px;
+        height: 60px;
+        top: 840px;
+        left: 1rem;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1417px) {
+    .body {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #C5E3C3;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .top {
+        background: #BFEDBB;
+        top: -1px;
+        left: 0.1%;
+        width: 100%;
+        height: 12.1%;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .name {
+        font-family: Impact, sans-serif;
+        font-size: 0.8rem;
+        color: #41663C;
+        background-color: #81B07D;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+        height: 10.8%;
+        top: -2%;
+        left: -2px;
+        width: 25%;
+        padding-left: 13px;
+    }
+
+    .welcome-text {
+        font-family: Impact, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 200;
+        color: #41663C;
+        background-color: #A8E0A3;
+        margin-left: 30%;
+        text-align: center;
+        line-height: 0.2cm;
+        letter-spacing: 0.1mm;
+        position: fixed;
+        width: 11%;
+        top: -2.9%;
+        height: 9.3%;
+        padding-top: 31px;
+    }
+
+    .buttons {
+        font-family: Imprima, sans-serif;
+        font-size: 0.5rem;
+        height: 5%;
+        right: 0;
+        top: -1px;
+        width: 45%;
+        background-color: #93B380;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: fixed;
+    }
+
+    .b1 a {
+        text-decoration: none;
+        color: black;
+        margin-right: 55px;
+    }
+
+    .b2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .b3 a {
+        text-decoration: none;
+        color: black;
+        margin-left: 55px;
+    }
+
+    .square1 {
+        width: 50px; 
+        height: 50px;
+        background-color: #6CAE66;
+        position: absolute; 
+        margin: 60%;
+        transform: translateY(25px);
+    }
+    .square2 {
+        width: 50px; 
+        height: 50px;
+        background-color: #527E4C;
+        position: absolute; 
+        margin: 73.5%;
+        transform: translateY(25px);
+    }
+    .square3 {
+        width: 50px; 
+        height: 50px;
+        background-color: #375432;
+        position: absolute; 
+        margin: 87.5%;
+        transform: translateY(25px);
+    }
+
+    #description {
+        width: 89%; 
+        height: 32%; 
+        border-top-left-radius: 56px;
+        border-top-right-radius: 56px;
+        border-bottom-left-radius: 56px;
+        border-bottom-right-radius: 56px;
+        background-color: #6CAE66;
+        position: absolute; 
+        top: 14%;
+        left: 3.8%;
+    }
+
+    #inside {
+        text-align: center;
+        font-family: Impact, sans-serif; 
+        font-size: 1.3rem;
+        color: white;
+        margin-top: 13%; 
+    }    
+
+    #square5 {
+        width: 50%; 
+        height: 45%; 
+        background-color: #9EC79B;
+        position: absolute; 
+        top: 49%;
+        left: 23%;
+    }
+
+    #square6 {
+        width: 50%; 
+        height: 45%; 
+        background-color: #638960;
+        position: absolute; 
+        top: 51%;
+        left: 26%;
+    }
+
+    img {
+        width: 173%;
+        height: 183%;
+        position: absolute; 
+        top: -88%;
+        left: -35%;
+        margin: 20px auto; 
+    }
+
+    .backbutton {
+        position: fixed;
+    }
+
+    .backbutton a img {
+        width: 25px;
+        height: 60px;
+        top: 840px;
+        left: 1rem;
+    }
+}
